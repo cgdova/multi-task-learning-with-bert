@@ -1,6 +1,4 @@
 ----------------------------------------------------------------------
-README
-
 a project focused on training pre-trained BERT for joint tagging
 and multi-label classification, for relation extraction.
 
@@ -16,6 +14,10 @@ generate appropriate responses.
 
 the domain of interest here are movie related queries, generated
 with according to the Freebase schema.
+
+here we also include a script that demostrates dynamic compression
+of our trained BERT, which is easy to implement with the pytroch
+library.
 ----------------------------------------------------------------------
 
 scripts:
