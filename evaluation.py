@@ -1,3 +1,7 @@
+""" evaluation.py
+this code comes curtesy of jonathan scott, currently a PhD candidate in computer science at UC
+Santa Cruz.
+"""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
