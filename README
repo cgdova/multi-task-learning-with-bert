@@ -24,6 +24,9 @@ pytroch library.
 another curious thing i do is i take the representation of [cls]
 from the last for hidden layers, which have been reported to
 be richer in semantic representation, such as by tenney et al. (2019).
+
+i've written the code here to be well formated, documented, and thus
+easy to follow. enjoy!
 ----------------------------------------------------------------------
 
 scripts:
