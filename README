@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------
 README
 
-a project focused on training pre-trained BERT for joint tagging
+a project focused on training pre-trained bert for joint tagging
 and multi-label classification, for relation extraction.
 
 relation extraction is the task of picking up relations tha hold
@@ -18,7 +18,7 @@ the domain of interest here are movie related queries, generated
 with according to the Freebase schema.
 
 here i also include a functionality that demostrates dynamic 
-compression of our trained BERT, which is easy to implement with the
+compression of our trained bert, which is easy to implement with the
 pytroch library.
 
 another curious thing i do is i take the representation of [cls]
