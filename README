@@ -1,4 +1,6 @@
 ----------------------------------------------------------------------
+README
+
 a project focused on training pre-trained BERT for joint tagging
 and multi-label classification, for relation extraction.
 
