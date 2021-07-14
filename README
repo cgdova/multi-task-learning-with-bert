@@ -1,0 +1,81 @@
+----------------------------------------------------------------------
+README
+
+a project focused on training pre-trained BERT for joint tagging
+and multi-label classification, for relation extraction.
+
+relation extraction is the task of picking up relations tha hold
+between entities in a given sentence. for example in (1), the
+relation invoked is something like: directed_by.
+
+    (1) Who directed Escape from New York?
+
+relation extraction is important for downstream tasks, such as
+conversational agents that can leverage detected relations to
+generate appropriate responses.
+
+the domain of interest here are movie related queries, generated
+with according to the Freebase schema.
+----------------------------------------------------------------------
+
+scripts:
+    this code was developed in an environment using python -V 3.8.5.
+    important packages include
+        pytorch=1.7.1
+        transformers=4.5.1
+        sklearn=0.24.1
+    for an exhaustive list, see the provided requirements.txt
+
+  models.py: 
+    contains classes defining my bert-based implementations, not
+    meant to be run but rather imported from.
+
+    data_processing.py: 
+    similarly, contains classes defining data processing tools to 
+    prepare data that bert implementation can process. not 
+    meant to be run, but rahter imported.
+
+  bert.py:
+    this is a script that is meant to be run directly, it imports
+    from both the above .py files and fine-tunes a bert model for
+    intent classification and tagging. this script importantly
+    saves the bert model and pickles train and test sets to
+    directory temp, which then allows you to run quant.py, my
+    quantized version of the model at inference. in addition, the
+    script runs inference on the trained model, writting a
+    predictions.txt file to the current directory.
+
+        >>> python bert.py
+
+  quant.py
+    this script loads in the saved model and pickled datasets
+    of bert.py. it quantizes the model and runs inference on
+    the test set, writting a predictions.txt file to the
+    current directory.
+
+        >>> python quant.py
+
+    the above code files are very well documented, please take a
+    look around.
+
+    evaluations.py:
+    provided script for measuring model performance.
+
+data:
+    this is a folder containing data used for training the models.
+    importantly, it contains an augmented training set, as
+    described in the report. we do not provide a validation set
+    since we train on the entire training set, having found the
+    best hyperparameters.
+        train.csv
+        test.csv
+
+temp:
+    an empty directory for saving models and dataset states.
+    please do not remove this, script bert.py and quant.py
+    assume this folder to be in the current directory.
+
+requirements.txt:
+    a pip freeze of the enviroment i developed my code in.
+
+----------------------------------------------------------------------

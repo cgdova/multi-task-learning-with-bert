@@ -1,0 +1,981 @@
+O O B_movie	movie.starring.actor
+O O O O O B_movie I_movie	movie.starring.actor
+O O O O O O B_movie I_movie	movie.starring.actor
+O O O B_movie	movie.starring.actor
+O O O B_movie	movie.starring.actor
+O O B_movie	movie.starring.actor
+O O O O O B_movie	movie.starring.actor
+O O O O O B_movie I_movie	movie.starring.actor
+O O O O B_movie I_movie	movie.starring.actor
+O O O O B_movie I_movie	movie.starring.actor
+O O B_movie I_movie I_movie I_movie	movie.starring.actor
+O O O B_movie I_movie	movie.starring.actor
+O O B_movie I_movie O O	movie.starring.actor
+O O O O O O O O O B_movie I_movie	movie.starring.actor
+O O O O O O O O O O O O O O B_movie I_movie	movie.starring.actor
+O O O B_movie I_movie	movie.starring.actor
+O O B_movie I_movie	movie.starring.actor
+O O B_movie	movie.starring.actor
+O O O O O B_movie I_movie	movie.starring.actor
+B_movie I_movie O	movie.starring.actor
+O O O O O O B_movie I_movie	movie.starring.actor
+O O O B_movie	movie.starring.actor
+O O O O O O B_movie	movie.starring.actor
+O O B_movie I_movie I_movie	movie.starring.actor
+O O O O	movie.starring.actor
+O O O O O O O	movie.starring.actor
+O O O	no_relation
+O O O B_person	movie.starring.actor
+O O B_movie I_movie	movie.starring.actor
+O O O O O O O O B_movie	movie.starring.actor
+O O O O O O O O B_movie	movie.starring.actor
+O O O O O O B_movie	movie.starring.actor
+O O O O O O O B_movie I_movie	movie.starring.actor
+O O O O O O O O B_movie I_movie	movie.starring.actor
+O O O O O O O B_movie I_movie	movie.starring.actor
+O O B_movie I_movie	movie.estimated_budget
+O O O O O B_movie I_movie	movie.estimated_budget
+O O B_movie	movie.estimated_budget
+O O O O O O B_movie I_movie	movie.estimated_budget
+O O B_movie O O	movie.estimated_budget
+O O O O O O O B_movie	movie.estimated_budget
+O O B_movie I_movie I_movie	movie.estimated_budget
+O O O O O O O O O B_movie	movie.estimated_budget
+O O O O O O O O B_movie	movie.estimated_budget movie.gross_revenue
+B_movie O O	movie.estimated_budget
+O O O B_movie O O	movie.estimated_budget
+O O O O O O O O B_movie	movie.estimated_budget
+O O O O O O B_movie O	movie.estimated_budget
+O O O O O O O O O B_movie	movie.estimated_budget
+O O O O O B_movie	movie.estimated_budget
+O O O O O B_movie I_movie	movie.estimated_budget
+O O O O O B_movie I_movie	movie.estimated_budget
+O O O O O B_movie I_movie I_movie I_movie	movie.estimated_budget
+O O O O B_movie I_movie I_movie I_movie I_movie	no_relation
+O O B_movie I_movie O O	movie.estimated_budget
+O O O O O B_movie	movie.estimated_budget
+O O O O B_cast I_cast O O O O O	movie.starring.actor
+O O B_movie I_movie O O O	no_relation
+O O O O O B_mpaa_rating	movie.rating
+B_country O O O O	movie.country
+O O O O B_cast I_cast O O	movie.starring.actor
+O O O O B_director I_director O	movie.directed_by
+O O O O B_director I_director O	movie.directed_by
+O O O O B_producer O	movie.production_companies
+O O O O O O O O O O O O O O B_movie I_movie O	movie.country
+O O O B_movie	movie.country
+O O O B_movie I_movie	movie.country
+O O O B_movie I_movie O	movie.country
+O O O O O O	movie.country
+O O O B_movie I_movie I_movie O O	movie.country
+O O B_movie	movie.country
+O O B_movie I_movie	movie.country
+O O B_movie I_movie O O	movie.initial_release_date
+O O O O O B_movie	movie.initial_release_date
+O O B_person I_person O O	movie.initial_release_date movie.starring.actor
+O O O B_movie O O O	movie.initial_release_date
+O O O O O O O	movie.initial_release_date
+O O O	movie.initial_release_date
+O O O O O O O	movie.initial_release_date
+O O O B_movie O O	movie.initial_release_date
+O O O O B_country O B_movie I_movie O O	movie.initial_release_date
+O O O O O O O O B_movie I_movie	movie.initial_release_date
+B_movie I_movie O O O	movie.initial_release_date
+O O B_movie I_movie O	movie.initial_release_date
+O O B_movie O	movie.initial_release_date
+O O B_movie O	movie.initial_release_date
+O O B_movie I_movie O	movie.initial_release_date
+O O B_movie I_movie I_movie O	movie.initial_release_date
+O O B_person I_person O O	movie.initial_release_date movie.starring.actor
+O O B_movie O O O O	movie.initial_release_date
+O O B_movie I_movie O	movie.initial_release_date
+O O O B_movie I_movie	movie.initial_release_date
+O O B_movie I_movie O	movie.initial_release_date
+O O O B_movie I_movie	movie.initial_release_date
+O O B_movie I_movie O	movie.initial_release_date
+O O B_movie O	movie.initial_release_date
+O O B_movie O	movie.initial_release_date
+O O O O O O O O O O O B_movie	movie.initial_release_date
+O O O O O O O O B_movie O	movie.initial_release_date
+O O B_movie I_movie O	movie.initial_release_date
+O O B_movie I_movie O O	movie.initial_release_date
+O O B_movie O O	movie.initial_release_date
+O O O B_movie I_movie I_movie O O O O O	movie.initial_release_date
+O O O O O O B_movie	movie.initial_release_date
+O O O B_movie I_movie O O	movie.initial_release_date
+O O B_movie O O	movie.initial_release_date
+O O O O O O O O O O B_movie	movie.initial_release_date
+O O O O O B_movie O O	movie.initial_release_date
+O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie O O	movie.initial_release_date
+O O O B_movie O O O	movie.initial_release_date
+O O O B_movie I_movie O O	movie.initial_release_date
+O O O O O O O B_movie I_movie I_movie	movie.initial_release_date
+O O O O B_movie I_movie I_movie O O	movie.initial_release_date
+O O B_movie I_movie I_movie I_movie	movie.directed_by
+O O O O O B_movie I_movie	movie.directed_by
+O O O O O B_movie I_movie	movie.directed_by
+O O O O O B_movie I_movie I_movie	movie.directed_by
+O O O O O O B_movie I_movie I_movie I_movie	movie.directed_by
+O O O O O O O B_movie I_movie I_movie I_movie	movie.directed_by
+O O B_movie	movie.directed_by
+B_movie O	movie.directed_by
+B_movie O O	movie.directed_by
+O O O B_movie	no_relation
+O O O O O B_movie I_movie	movie.directed_by
+O O B_movie	movie.directed_by
+O O O O O B_movie I_movie I_movie I_movie	movie.directed_by
+O O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie I_movie I_movie	movie.directed_by
+O O O O O O O B_movie I_movie	movie.directed_by
+O O B_movie	movie.directed_by
+O O B_movie I_movie I_movie	movie.directed_by
+O O O O O O B_movie I_movie	movie.directed_by
+O O O B_movie I_movie	movie.directed_by
+O O B_movie I_movie	movie.directed_by
+B_movie I_movie O O O	movie.directed_by
+O O B_movie I_movie	movie.directed_by
+O O B_movie	movie.directed_by
+O O O O O O O O O O O B_movie	movie.directed_by
+O O O O B_movie I_movie	movie.directed_by
+O O B_movie I_movie I_movie	movie.directed_by
+O O O O O O B_movie	movie.directed_by
+O O B_movie	movie.directed_by movie.starring.actor
+B_movie O	movie.directed_by
+O O B_movie	movie.directed_by
+O O B_movie	movie.directed_by
+O O O O O B_movie I_movie	movie.directed_by
+O O O O O B_movie I_movie	movie.directed_by
+O O O O O B_movie I_movie	movie.directed_by
+O O O O B_movie I_movie	movie.directed_by
+O O O O O B_movie I_movie	movie.directed_by
+O O O O B_movie I_movie	movie.directed_by
+O O B_movie I_movie	movie.directed_by
+B_movie O	movie.directed_by
+O O O O B_movie I_movie I_movie I_movie	movie.directed_by
+O O B_movie I_movie I_movie I_movie	movie.directed_by
+O O B_movie I_movie I_movie I_movie	movie.directed_by
+O O O O O O O B_movie	movie.directed_by
+O O B_movie O O	movie.directed_by
+O O O O B_movie I_movie I_movie	movie.directed_by
+O O O O O B_movie I_movie	movie.genre
+O O B_movie I_movie O O	movie.genre
+O O O B_movie	movie.genre
+O O O O O B_movie	movie.genre
+O O B_movie I_movie I_movie	movie.genre
+O O O O O O O O O B_movie	movie.genre
+O O O O O O B_movie O O	movie.genre
+O O B_movie I_movie I_movie I_movie I_movie	movie.genre
+O O O O O	movie.genre
+O O O O B_movie	movie.genre
+O O O O B_movie I_movie I_movie I_movie	movie.genre
+O O O O O O B_movie I_movie O O	movie.genre
+O O O B_movie I_movie O	movie.genre
+O O B_movie	movie.genre
+O O O O O O O B_movie	movie.genre
+O O O O O O O O O O B_movie	movie.genre
+O O B_movie I_movie	movie.genre
+O O O O B_movie I_movie O O O O	movie.genre
+O O O O O B_movie I_movie	movie.genre
+O O O O O O	movie.language
+O O O O O	movie.language
+O O O O O B_movie O	movie.language
+O O B_movie I_movie	movie.language
+O O B_movie I_movie	movie.language
+O O O B_movie I_movie O	movie.language
+O O B_movie	movie.language
+O O O O O O O I_movie I_movie O O	movie.language
+O O O O O O O O O O O O O O	movie.language
+O O O O O O O O O B_country O	movie.country movie.language
+O O O O O O O B_country O	movie.country movie.language
+B_producer I_producer O O O O O O O	movie.produced_by
+O O O O O O O O O B_producer I_producer	movie.produced_by
+O B_movie I_movie I_movie	no_relation
+O O O O B_movie I_movie I_movie	no_relation
+O O O	movie.initial_release_date
+O O O	movie.rating
+O O O O O B_language	movie.initial_release_date
+O B_cast I_cast O O O B_movie I_movie	movie.starring.actor
+O B_cast I_cast O O O B_movie I_movie	movie.starring.actor
+O O O B_subject	movie.subjects
+O O O O B_subject	movie.subjects
+O B_person I_person O	movie.starring.actor
+B_person I_person O	movie.starring.actor
+O O O B_cast I_cast O O	movie.starring.actor
+O B_country O	movie.country movie.language
+O O O O B_movie I_movie O O O O O O O O O	movie.starring.actor
+B_movie	no_relation
+O O O O B_movie	no_relation
+B_person I_person O B_char	movie.starring.actor movie.starring.character
+O O O O B_director I_director O	movie.directed_by
+O O O O	movie.gross_revenue
+O O B_director I_director O O B_language	movie.language
+O O O O O B_movie I_movie O	no_relation
+B_movie I_movie O	no_relation
+O O O B_movie I_movie	no_relation
+O O O O O O O O B_movie I_movie	no_relation
+O O O O O O B_movie I_movie	no_relation
+O O B_director I_director O	movie.directed_by
+O O O O O O O B_director I_director	movie.directed_by
+O B_person I_person O	no_relation
+O O O O B_cast I_cast O O O	movie.starring.actor
+O O O O B_director I_director O	movie.directed_by
+O O O B_producer I_producer O	movie.produced_by
+O O B_cast I_cast O O	movie.starring.actor
+O O O O O O B_cast I_cast O O	movie.starring.actor
+O O O O B_cast I_cast O	movie.starring.actor
+B_director I_director O O O	movie.directed_by
+O O O O O B_director I_director	movie.directed_by
+O O O	movie.initial_release_date
+O O O O	movie.directed_by
+O O O	movie.directed_by
+O O O O O O B_mpaa_rating	movie.rating
+O O	no_relation
+O O O O O B_language O O	movie.language
+O O O O O O B_country	movie.country
+O O O O O O O B_country I_country	movie.country
+O B_language O	movie.country movie.language
+O B_language O	movie.language
+B_genre	movie.genre
+O O B_genre	movie.genre
+O B_genre O	movie.genre
+O B_genre O	movie.genre
+O O B_genre O	movie.genre
+O O O O O O O B_genre O	movie.genre
+O O B_person I_person O	movie.starring.actor
+O O O B_cast I_cast O O	movie.starring.actor
+O O O B_cast I_cast	movie.starring.actor
+O O O O O B_country	movie.country
+O O O O B_country O	movie.country
+O B_country O	movie.country
+O O O O B_country O	movie.country
+O O O O O B_country O	movie.country movie.language
+O O O B_language O O	movie.country movie.language
+O O O O O O O B_country	movie.country
+O O O B_country	movie.country
+B_country O O	movie.country
+O O O O B_language O	movie.country movie.language
+B_language O O	movie.country movie.language
+B_language O	movie.country movie.language
+O O O O	movie.starring.actor
+O O O	no_relation
+O O B_genre O	movie.genre
+O O O O O O O B_language	movie.language
+B_person I_person O	movie.starring.actor
+O O O B_director I_director O O	movie.directed_by
+B_country O	movie.country
+B_country O O	movie.country
+O B_director I_director O	movie.directed_by
+O O O B_director I_director O	movie.directed_by
+O O O B_language	movie.language
+O O O O B_country	movie.country
+O O O B_country B_genre O	movie.country movie.genre
+O O O O O B_mpaa_rating O B_genre	movie.genre movie.rating
+O O B_language I_language B_genre	movie.language
+O O B_movie I_movie O O B_cast I_cast	movie.starring.actor
+O O O O O O O B_movie I_movie	no_relation
+O O O B_movie I_movie	no_relation
+O O O O O O B_person I_person O	movie.starring.actor
+O O O O B_cast I_cast	movie.starring.actor
+O O O O B_person I_person O O	movie.starring.actor
+O O O B_producer I_producer O	movie.produced_by
+O O O O B_country	movie.country
+O O O B_cast I_cast O O	movie.starring.actor
+B_movie I_movie O	no_relation
+B_movie I_movie	no_relation
+O O O O O B_movie I_movie	no_relation
+O B_movie I_movie	no_relation
+O O B_country	movie.country
+O O O B_country	movie.country
+O B_country O	movie.country movie.language
+O O B_country O	movie.country movie.language
+O O O O O O B_country O	movie.country movie.language
+O O O O O B_country O	movie.country movie.language
+B_country O	movie.country movie.language
+O O B_language I_language O	movie.language
+O O O O O B_language	movie.language
+B_producer O O	movie.production_companies
+O O O B_producer	movie.production_companies
+O B_person I_person O	movie.starring.actor
+O B_cast I_director O	movie.starring.actor
+O O O B_subject	movie.subjects
+O O O B_subject	movie.subjects
+B_person I_person O	movie.starring.actor
+B_movie O	no_relation
+O O O B_producer I_producer O	movie.produced_by
+O O O O O B_producer	movie.production_companies
+O O O O B_producer	movie.production_companies
+O O O B_producer O	movie.initial_release_date movie.production_companies
+O O O O B_country	movie.country
+O O O O O B_producer I_producer	movie.produced_by
+O B_movie O B_genre	movie.genre
+O O O O O B_director I_director O O	movie.directed_by
+O O O B_country	movie.country
+O O O B_country	movie.country
+O O O O O O O O B_country	movie.country
+O O O O B_country	movie.country
+B_country O	movie.country movie.language
+O O O B_country O	movie.country movie.language
+O O B_country O	movie.country movie.language
+O O O O B_mpaa_rating O	movie.rating
+O O O O O O B_mpaa_rating	movie.rating
+O O O B_mpaa_rating O O O O O O O	movie.rating
+O O B_mpaa_rating O O	movie.rating
+O B_mpaa_rating O	movie.rating
+O B_mpaa_rating O	movie.rating
+O O O B_mpaa_rating O	movie.rating
+O O B_mpaa_rating O O	movie.rating
+O O O O O B_mpaa_rating O O O O O O O	movie.rating
+O B_mpaa_rating O O O O	movie.rating
+O B_mpaa_rating O O	movie.rating
+O O O O O B_mpaa_rating O	movie.rating
+O O O O O O B_mpaa_rating	movie.rating
+O O O B_mpaa_rating	movie.rating
+O O O O B_mpaa_rating O	movie.rating
+O B_director I_director O O O B_genre	movie.directed_by
+B_producer I_producer O O O	movie.produced_by
+O O O O O O O B_director I_director	movie.directed_by movie.initial_release_date
+O O O O B_producer	movie.production_companies
+O O B_country O O	movie.country
+O O O B_country	movie.country
+O O O O O B_country	movie.country
+O O O B_producer I_producer O O	movie.produced_by
+O O O O O O O O B_producer I_producer	movie.produced_by
+O B_director I_director O O O O O O I_movie O	movie.directed_by
+O O O O B_director I_director	movie.directed_by
+O O O O O O B_director I_director	movie.directed_by
+O O O O O O O B_director I_director	movie.directed_by
+O O O B_director I_director O	movie.directed_by
+O O O O B_director I_director	movie.directed_by
+O O O O B_director I_director	movie.directed_by
+O O O O O O O O O O O O B_producer I_producer	movie.produced_by
+O O O O O O O O O B_producer B_producer	movie.produced_by
+O O B_country B_genre O	movie.country movie.genre movie.language
+O O O O O O B_director I_director O	movie.directed_by
+O O B_director I_director	movie.directed_by
+O O B_director I_director	movie.directed_by
+O O O B_director I_director O	movie.directed_by
+O B_director I_director O	movie.directed_by
+B_director I_director O	movie.directed_by
+B_director I_director O O	movie.directed_by
+O O B_director I_director	movie.directed_by
+O O B_director I_director O	movie.directed_by
+O O O B_director I_director	movie.directed_by
+O O O O O O O O O B_director I_director	movie.directed_by
+B_movie I_movie	no_relation
+O B_cast I_cast B_movie I_movie I_movie	movie.starring.actor
+O O O O O O B_cast I_cast	movie.starring.actor
+O O O B_cast I_cast	movie.starring.actor
+O O O O B_country	movie.country
+O O O O O O O O O B_country	movie.country
+O O O O O O O O B_country	movie.country
+B_country O O	movie.country movie.language
+B_country O	movie.country movie.language
+O O O O	movie.produced_by
+O O O	movie.produced_by
+O O O O	movie.produced_by
+O O O O B_producer	movie.production_companies
+O O B_person I_person O O O	movie.initial_release_date movie.starring.actor
+O O O O O B_director I_director	movie.directed_by
+B_person I_person O	movie.starring.actor
+O O O O B_cast I_cast	movie.starring.actor
+O O O O O O O O O O B_cast I_cast	movie.starring.actor
+O O O O B_director I_director O	movie.directed_by
+O O O O O O O O B_producer I_producer	movie.produced_by
+O O O O O O O O B_producer I_producer	movie.produced_by
+O O O B_producer I_producer	movie.produced_by
+O O B_person I_person B_movie	no_relation
+O O O B_producer I_producer O O	movie.produced_by
+O O O O B_director I_director O	movie.directed_by
+O O O O O O O O O O B_director I_director	movie.directed_by
+O O O O O O O O O O B_director I_director	movie.directed_by
+B_producer I_producer O O	movie.produced_by
+O O O B_producer I_producer	movie.produced_by
+O O O O O O B_producer I_producer	movie.production_companies
+O O O O B_producer I_producer	movie.production_companies
+O O O O O O B_producer I_producer	movie.production_companies
+O O O O B_producer	movie.production_companies
+O O O O B_movie I_movie	no_relation
+O O O O B_movie I_movie	no_relation
+O O B_movie I_movie	no_relation
+B_movie I_movie O	no_relation
+O B_movie I_movie	no_relation
+O O O O B_movie I_movie	no_relation
+B_movie I_movie O	no_relation
+O O O B_person I_movie	no_relation
+O B_movie I_movie	no_relation
+O B_cast I_cast O O O O O B_movie	movie.starring.actor
+O O B_person I_person O	movie.starring.actor
+O O O B_cast I_cast O O	movie.starring.actor
+B_producer O	movie.production_companies
+O B_producer O	movie.production_companies
+O O O O O B_producer	movie.production_companies
+O O O O B_director I_director	movie.directed_by
+O B_person I_director O	movie.directed_by
+O O O B_director I_director O	movie.directed_by
+O O O O O O O B_country I_country	movie.country
+O O B_country O	movie.country
+O B_producer I_movie O	no_relation
+B_country O	movie.country movie.language
+O O O O B_cast I_cast O O	movie.starring.actor
+O O O O O O B_cast I_cast O	movie.starring.actor
+O O B_person O O	movie.starring.actor
+O O O O O B_genre O O B_country	movie.country movie.genre
+B_cast I_cast O O O O	movie.starring.actor
+O O O O O O O O B_director I_director	movie.directed_by
+O B_director I_director O	movie.directed_by
+O O O B_director I_director O	movie.directed_by
+O O O B_director I_director O	movie.directed_by
+O O O B_director I_director O	movie.directed_by
+O O O O O O O O O O B_producer I_producer	movie.produced_by
+O O O B_cast I_cast O O	movie.starring.actor
+O O O O B_cast I_cast O O O	movie.starring.actor
+O O O O O B_cast I_cast	movie.starring.actor
+O O B_mpaa_rating O O	movie.rating
+O O B_mpaa_rating O O	movie.rating
+O O O O O B_mpaa_rating O O	movie.rating
+O O B_mpaa_rating O O	movie.rating
+O O O B_mpaa_rating O O	movie.rating
+O O O O O O O O B_mpaa_rating O	movie.rating
+O O O O O O O O B_mpaa_rating	movie.rating
+O O O O O O B_mpaa_rating O	movie.rating
+O O O O B_mpaa_rating	movie.rating
+O O O O O B_mpaa_rating O	movie.rating
+O O O O O O O O O O B_mpaa_rating	movie.rating
+O O O O O O B_country	movie.country
+O O O O O O B_language O O	movie.language
+O O O O O B_location	movie.country
+O O O O B_movie I_movie	no_relation
+O O O B_subject O O	movie.subjects
+O O O O B_subject	movie.subjects
+O O O O B_subject	movie.subjects
+O O O O B_director I_director	movie.directed_by
+O B_director I_director O O	no_relation
+O B_director I_director O	movie.directed_by
+O O O O O O O B_director I_director	movie.directed_by
+O B_country O	movie.country movie.language
+B_country O	movie.country movie.language
+O B_genre O	movie.genre
+O O B_genre O	movie.genre
+O B_movie O	no_relation
+O O B_director I_director O	movie.directed_by
+O O O O B_director I_director	movie.directed_by
+O O	movie.produced_by
+O O O O O B_producer I_producer	movie.produced_by
+O O O O O O B_producer I_producer	movie.produced_by
+O O O O O B_producer I_producer	movie.produced_by
+O O O O B_producer I_producer	movie.produced_by
+O O O O O B_producer I_producer	movie.produced_by
+O O O B_cast I_cast O O	movie.starring.actor
+O O O O O O O O O O O	movie.directed_by
+O O O O O O O B_country	movie.country
+O O B_movie I_movie I_movie O	no_relation
+O O O O B_movie I_movie I_movie I_movie O	no_relation
+O O O O B_movie I_movie I_movie I_movie O	no_relation
+B_movie I_movie I_movie I_movie	no_relation
+O O B_movie I_movie I_movie O O	no_relation
+O B_movie I_movie I_movie	no_relation
+O O O O O O O B_movie I_movie I_movie	no_relation
+O O O B_movie I_movie O	no_relation
+O O O B_movie I_movie O	no_relation
+O O O B_movie I_movie O	no_relation
+O O O B_movie I_movie O	no_relation
+O O O O B_movie I_movie	no_relation
+O O O O O O B_movie I_movie	no_relation
+O B_movie I_movie O	no_relation
+O O O O O O B_movie O B_language	movie.language
+O B_person I_person O	movie.starring.actor
+O O O O O O O B_cast I_cast	movie.starring.actor
+B_person I_director O	movie.starring.actor
+O O O B_director I_director O	movie.directed_by
+O O O O O O O O B_producer I_producer	movie.produced_by
+O O O O B_subject	movie.subjects
+O O B_director I_director O	movie.starring.actor
+O O O	movie.directed_by
+O O O	movie.directed_by
+O O O O O O B_producer I_producer	movie.initial_release_date movie.production_companies
+O O O O B_subject I_subject O O	movie.subjects
+O O O B_genre O B_country	movie.country movie.initial_release_date
+O O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie	no_relation
+O O B_movie B_movie I_movie I_movie I_movie I_movie I_movie I_movie O	no_relation
+O O O O O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie O O	no_relation
+O O O O O O O O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie	no_relation
+O O O O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie	no_relation
+O O B_language	movie.language
+O O O O O O O B_language	movie.language
+O O O O O O B_producer I_producer	movie.produced_by
+B_person I_person O O	movie.starring.actor
+O O B_person I_person O O	movie.starring.actor
+O O O B_cast I_cast	movie.starring.actor
+O O O B_cast I_cast O O	movie.starring.actor
+O O O O	no_relation
+O O O	movie.genre
+O O O O B_director I_director	movie.directed_by
+O O O O B_movie I_movie O	no_relation
+O O O B_movie I_movie	no_relation
+O O O O O O B_movie I_movie O	no_relation
+O O O O O O O O O O B_movie I_movie	no_relation
+O O B_mpaa_rating O	movie.rating
+B_mpaa_rating O O	movie.rating
+O O O O B_mpaa_rating O O	movie.rating
+O O O O O B_mpaa_rating O	movie.rating
+O O O O O O O B_mpaa_rating O O O O	movie.rating
+O O O O O B_mpaa_rating O O	movie.rating
+O O O O B_mpaa_rating O	movie.rating
+O O O B_mpaa_rating	movie.rating
+O O B_director I_director	movie.directed_by
+O O O B_director I_director O	movie.directed_by
+O B_movie O	movie.starring.actor
+O O O O O O O O B_cast I_cast	movie.initial_release_date movie.starring.actor
+O O O O O O O O B_mpaa_rating	movie.initial_release_date movie.rating
+O O O O O O O O B_mpaa_rating	movie.initial_release_date movie.rating
+B_producer I_producer O O O O	movie.produced_by
+O O B_director O O O	movie.directed_by movie.initial_release_date
+O O O O O B_director I_director	movie.directed_by
+O O O O O O O B_language O	movie.initial_release_date movie.language
+O O O B_cast I_cast O O O	movie.starring.actor
+O O O O	movie.initial_release_date
+O O B_movie I_movie	no_relation
+O B_movie I_movie O	no_relation
+O O O O B_producer	no_relation
+B_producer O	movie.production_companies
+O O O B_producer O	no_relation
+O O B_person I_person	movie.starring.actor movie.starring.character
+O O O B_person I_person	no_relation
+O O O O O O O B_person I_person	no_relation
+O O O O O O B_person I_person	no_relation
+B_person I_person O	no_relation
+O B_person I_person O	no_relation
+O O O O O O B_person I_person	no_relation
+O O O O B_person I_person	no_relation
+O O B_person I_person O O	no_relation
+O O O B_person I_person	no_relation
+O B_person I_person O O O O	no_relation
+O O O O O O B_person I_person	no_relation
+B_person I_person O	no_relation
+O O O O B_person O O O	no_relation
+B_person I_director O	no_relation
+O B_person I_person	no_relation
+O O O O O B_person I_person	no_relation
+O O B_director I_director	no_relation
+O O B_person I_person	no_relation
+O O O O O B_person I_person O O	no_relation
+O O B_director	movie.directed_by
+O O O O O O O B_movie	movie.produced_by
+O B_movie	movie.produced_by
+O O B_movie	movie.produced_by
+O O O B_movie	movie.production_companies
+O O O B_movie	movie.production_companies
+O O O O O O B_movie	movie.production_companies
+O O B_movie	movie.produced_by
+O O O O O B_movie	movie.produced_by
+O O O B_movie	movie.production_companies
+O O O O B_movie I_movie	movie.produced_by
+O O B_movie	movie.produced_by
+O O O O O O O B_movie	movie.produced_by
+O O B_movie	movie.produced_by
+O O B_movie	movie.produced_by
+B_movie O	movie.produced_by
+O O O O O O O O O B_movie	movie.produced_by
+O O O O B_movie	movie.produced_by
+O O O O O O O B_movie	movie.produced_by
+O O B_movie O O	movie.produced_by
+O O B_movie	movie.produced_by
+O O O O B_movie I_movie I_movie I_movie I_movie	movie.produced_by
+O O B_movie I_movie	movie.produced_by
+O O O O O B_movie I_movie	movie.produced_by
+B_movie I_movie O O O	movie.produced_by
+O O O O B_movie	movie.produced_by
+O O B_movie I_movie	movie.produced_by
+O O B_movie I_movie I_movie	movie.produced_by
+O O B_movie I_movie	movie.produced_by
+O O O O O O O O B_movie	movie.production_companies
+O O O O O B_movie	movie.production_companies
+O O O B_movie I_movie I_movie	movie.produced_by
+O O B_movie	movie.produced_by
+O O O O O O O O B_movie	movie.production_companies
+O O O O O O O O B_movie	movie.production_companies
+O O O O B_movie I_movie I_movie I_movie	movie.produced_by
+O O B_movie I_movie	movie.produced_by
+O O O O B_movie I_movie	movie.produced_by
+O O O O O B_movie I_movie	movie.produced_by
+O O O O O B_movie I_movie	movie.produced_by
+O O O O	movie.rating
+O O O O B_movie I_movie O	movie.gross_revenue
+O O B_movie I_movie	movie.gross_revenue
+O O O O O B_movie I_movie	movie.gross_revenue
+O O O B_movie I_movie O	movie.estimated_budget
+O O O O O O B_movie I_movie	movie.gross_revenue
+O O O B_movie I_movie O	movie.estimated_budget
+O O B_movie I_movie	movie.gross_revenue
+O O O B_movie I_movie I_movie O O O	movie.gross_revenue
+O O O O B_movie I_movie	movie.gross_revenue
+O O B_movie I_movie	movie.gross_revenue
+O O O O B_person I_person O O	movie.initial_release_date
+O O O O O B_char O B_movie I_movie	movie.starring.actor movie.starring.character
+O O B_char I_char O B_movie I_movie	movie.starring.actor movie.starring.character
+O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie	movie.starring.actor
+O O O O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie	movie.starring.actor
+O O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie	movie.starring.actor
+O O O B_movie I_movie I_movie	movie.starring.actor
+O O O B_char O B_movie I_movie I_movie	movie.starring.actor movie.starring.character
+O O O O O O I_movie I_movie I_movie I_movie I_movie I_movie I_movie	movie.starring.actor
+O O B_char O B_movie	movie.starring.actor movie.starring.character
+O O B_char O B_movie B_movie I_movie	movie.starring.actor movie.starring.character
+O O O O O O O B_movie B_movie	movie.starring.actor
+O O O O O B_movie I_movie I_movie I_movie	movie.starring.actor
+O O O O O O O O B_movie I_movie	movie.starring.actor
+O O O B_char O I_movie I_movie I_movie I_movie	movie.starring.actor movie.starring.character
+O O O O O O O O B_char O B_movie O B_director I_director	movie.starring.actor movie.starring.character
+O O O O O O O O O B_char O B_char O I_movie	movie.starring.actor movie.starring.character
+O O O O O O O O O B_char O O O O B_movie I_movie I_movie I_movie	movie.starring.actor movie.starring.character
+O O O O O O O O O B_movie	movie.starring.actor
+O O O O O O O B_movie	movie.starring.actor
+O O O O B_movie I_movie I_movie	movie.starring.actor
+O O O O O O O O O B_char I_char O B_movie I_movie I_movie I_movie	movie.starring.actor movie.starring.character
+O O O O O O O O O O O O O O O B_movie I_movie I_movie I_movie	movie.starring.actor
+O O O O O O B_movie I_movie I_movie	movie.estimated_budget
+O O O O O B_movie	movie.estimated_budget
+O O O O O B_movie	movie.estimated_budget
+O O O O O B_movie I_movie	movie.estimated_budget
+O O O O O B_movie I_movie	movie.estimated_budget
+O O O O O O B_person I_person O	movie.estimated_budget
+O O O O O O O O B_director I_director O	movie.initial_release_date
+O O O O O O O B_movie	movie.estimated_budget
+O O O O O O O B_movie	movie.estimated_budget
+O O O O O O O B_movie	movie.estimated_budget
+O O O B_movie I_movie I_movie I_movie O	movie.estimated_budget
+O O O O O O B_movie	movie.estimated_budget
+O O O O O B_movie O	movie.estimated_budget
+O O O O O B_movie I_movie I_movie	movie.estimated_budget
+O O O O O O O B_movie I_movie I_movie	movie.estimated_budget
+O O O O O B_movie I_movie	movie.estimated_budget
+O O O O O B_movie I_movie O O	movie.estimated_budget
+B_producer	movie.production_companies
+O O O B_movie	movie.country
+O O O B_movie I_movie	movie.country
+O O O B_movie I_movie O	movie.country
+O O B_movie I_movie I_movie I_movie O	movie.country
+O O O B_movie I_movie	movie.country
+O O O O O B_movie I_movie I_movie I_movie O O	movie.country
+O O O B_movie I_movie I_movie O O	movie.country
+O O O O B_movie O	movie.initial_release_date
+O O O O O O O B_movie	movie.initial_release_date
+O O O O O B_movie I_movie O	movie.initial_release_date
+O O O O O O B_movie I_movie I_movie	movie.initial_release_date
+O O O O O O B_movie I_movie O O O	movie.initial_release_date
+O O O O O O B_movie I_movie I_movie	movie.initial_release_date
+O O O O O B_movie I_movie O	movie.initial_release_date
+O O O O B_movie I_movie I_movie I_movie O O	movie.initial_release_date
+O O B_movie I_movie I_movie I_movie I_movie O O	movie.initial_release_date
+O B_movie I_movie O O	movie.initial_release_date
+O O B_movie O O	movie.initial_release_date
+O O B_movie O O	movie.initial_release_date
+O O B_movie I_movie I_movie I_movie O	movie.initial_release_date
+O O B_movie I_movie I_movie I_movie I_movie O O	movie.initial_release_date
+O O B_movie	movie.directed_by
+O O O O B_movie I_movie	movie.directed_by
+O O B_movie I_movie I_movie I_movie	movie.directed_by
+O O O O O B_movie I_movie	movie.directed_by
+O O O O B_movie I_movie I_movie I_movie	movie.directed_by
+O B_movie O O O O	movie.language
+O O O B_movie O O	movie.language
+O O O B_movie O I_movie O	movie.language
+O O B_movie I_movie O O O	movie.language
+O O O B_movie I_movie I_movie O	movie.language
+O O O O O B_genre O O O B_mpaa_rating I_mpaa_rating O	movie.rating
+O O B_genre B_genre O B_release_year I_release_year	movie.genre
+O O O O O B_subject I_subject	no_relation
+O O B_genre O B_release_year B_release_year	no_relation
+O O O	no_relation
+O B_genre O	movie.genre
+B_genre	movie.genre
+O O B_genre	movie.genre
+O B_subject O	no_relation
+O O O B_person I_person O	no_relation
+O O O O O O B_director I_director	movie.directed_by
+O O O B_director I_director	movie.directed_by
+O O O	movie.initial_release_date
+O O O O B_country O	movie.country movie.language
+O O B_producer O O B_producer I_release_year	no_relation
+O O O O O B_country B_release_year I_release_year	movie.country
+O B_person O O B_language	movie.language
+O O O O O O B_country	movie.country
+O O O B_country O B_person	no_relation
+O O O O O B_director I_director O	movie.directed_by
+O O O O B_person I_director O	movie.starring.actor
+O O O O B_director I_director O	movie.directed_by
+O O O B_director I_director O	movie.directed_by
+O O B_director I_director	movie.directed_by
+O B_director I_director O O O	movie.directed_by
+O O O B_director I_director O	movie.directed_by movie.starring.actor
+O O B_director I_director O O O	movie.directed_by
+O O O O O B_director I_director	movie.directed_by
+B_director I_director O O O O	movie.directed_by
+O O O O O O B_director I_director	movie.directed_by
+B_director I_director O O O	movie.directed_by
+O B_genre O O B_cast I_cast	movie.genre movie.starring.actor
+O O B_genre O O B_release_year I_release_year	no_relation
+B_genre B_mpaa_rating I_mpaa_rating O	movie.genre movie.rating
+B_genre O	no_relation
+O O B_genre O	movie.genre
+O O O O B_release_year B_release_year	movie.initial_release_date
+O O O O B_release_year I_release_year	movie.initial_release_date
+O O O O O B_release_year I_release_year	movie.initial_release_date
+O O O B_release_year I_release_year	movie.rating
+O O B_subject O	movie.initial_release_date
+O O O O B_language	movie.language
+O O O O O O B_language	movie.language
+O O O O O O O O O O O B_language	movie.language
+O O O B_language	no_relation
+O O O O O O B_language	movie.language
+O O O B_language	movie.language
+O O O O O O O O B_language	movie.language
+O O B_language	movie.language
+O O O O O O O B_language O	movie.language
+O O O O B_language	movie.language
+O O O B_language O B_release_year	movie.language
+O O O O O O O O B_language	movie.language
+O O O B_language	movie.language
+O O O O B_language	movie.language
+O O O O O B_language I_language	movie.language
+O O B_language	movie.language
+O O O O O O B_language	movie.language
+O O O O O O O O B_language	movie.language
+O O O B_language	movie.language
+O O O O O O O O O B_producer I_producer	movie.produced_by
+O O O B_producer I_producer O	movie.produced_by
+O B_producer I_producer O O	movie.produced_by
+O O O O O O B_producer I_producer I_producer	movie.produced_by
+O O O O O B_producer I_producer	movie.production_companies
+B_producer O O O O O O O O O O O O B_producer I_release_year I_release_year I_release_year O O I_release_year I_release_year I_release_year	movie.production_companies
+B_producer I_producer I_producer O B_release_year	movie.production_companies
+O O B_mpaa_rating O O O O	movie.rating
+O O O O O O O	movie.rating
+O O O O O O O	movie.rating
+O O O O O B_mpaa_rating I_mpaa_rating B_genre O	movie.rating
+O O O O O B_mpaa_rating I_mpaa_rating O	movie.rating
+O O O O O O B_mpaa_rating O O O O O O O B_release_year B_release_year I_release_year	movie.initial_release_date movie.rating
+O O O O B_mpaa_rating O O B_producer	movie.production_companies movie.rating
+O O O O O O	movie.rating
+O O O O O B_cast I_cast	movie.initial_release_date movie.starring.actor
+O O O O O O B_cast I_cast	movie.starring.actor
+O O O B_cast I_cast O B_release_year I_release_year	movie.starring.actor
+O O O B_person O O O	movie.starring.actor
+O O O O O B_cast I_cast	movie.starring.actor
+O O O O O O O B_cast I_cast	movie.starring.actor
+O O O O B_cast I_cast I_cast	movie.starring.actor
+O O O O O B_cast I_cast O B_cast I_cast O O	movie.starring.actor
+O O O O O B_cast I_cast O O O B_movie I_release_year I_release_year	movie.starring.actor
+O O O O O O B_cast I_cast	movie.starring.actor
+O O B_person I_director	movie.directed_by
+O O B_cast I_cast O B_cast I_cast O O O	movie.starring.actor
+O O B_subject	movie.subjects
+O O O O B_subject	no_relation
+B_subject O	movie.subjects
+O O O O B_subject	movie.subjects
+O O O O O B_subject	movie.subjects
+O O O O O O B_subject	movie.subjects
+O O O O O O O B_subject	movie.subjects
+O O O B_subject	no_relation
+O O O O B_subject	no_relation
+O O O O O B_subject O	no_relation
+O O O O B_subject O	no_relation
+O O O O B_subject O O O O	movie.subjects
+O O O O O O O O O O B_subject O	no_relation
+O O O O O O O O B_subject O	no_relation
+O O O O B_subject	no_relation
+O O O O O O B_subject O	movie.subjects
+O O O B_subject I_subject O O O O	no_relation
+O O O O B_subject I_subject	movie.subjects
+B_subject O O	no_relation
+O O O O O O B_subject O O	movie.subjects
+O O O O O O O B_subject	no_relation
+O O O O O O O B_subject	movie.subjects
+O O O O O O O B_subject	movie.subjects
+O O O O B_subject	movie.subjects
+O O O B_subject I_subject I_subject	movie.subjects
+O O O B_subject I_subject O	movie.subjects
+O O B_subject O	movie.subjects
+O O B_person O B_language	movie.language
+O B_movie O B_mpaa_rating	movie.rating
+O O O O B_country O O B_movie	movie.country movie.language
+O O O B_language	movie.language
+O B_movie I_movie I_movie O B_language	movie.language
+B_movie I_movie I_movie I_movie B_person I_person	no_relation
+O O O B_movie I_movie I_movie	no_relation
+O O O B_movie I_movie I_movie	no_relation
+O O O O O O O O O B_movie I_movie I_movie	no_relation
+O O O O O O O O O B_movie I_movie I_movie	no_relation
+O O O O O O B_movie I_movie I_movie	no_relation
+O O O O O O B_movie I_movie I_movie O	no_relation
+O O O O O O B_movie I_movie I_movie	no_relation
+O B_movie I_release_year O O O O B_movie I_movie	movie.initial_release_date
+O B_movie O B_language	movie.language
+O O O O B_movie I_movie I_movie O	no_relation
+O O O O O O B_movie I_movie I_movie I_movie I_movie I_movie	no_relation
+O B_producer I_producer O B_movie I_movie	movie.produced_by
+O O O B_movie I_movie I_movie O O B_release_year I_release_year	movie.initial_release_date
+O O O O O O O B_country O	movie.country
+B_country O O O B_cast	movie.country movie.language
+B_country O O B_release_year I_release_year	movie.country movie.language
+O O B_country O O B_producer	movie.country movie.language
+O O O B_producer	movie.production_companies
+B_producer O O	movie.production_companies
+O O O O O O O O O O B_person I_person	no_relation
+O O O O O O B_person I_director	no_relation
+O O O O B_person I_person	movie.starring.actor
+O O O O O O O B_person I_person	no_relation
+O O O O B_movie I_movie	movie.produced_by
+B_producer O I_movie O O	movie.production_companies
+O O O O B_movie I_movie	movie.produced_by
+O O O O O O B_movie I_movie	movie.produced_by
+O O B_movie I_movie	movie.produced_by
+O O	movie.produced_by
+O O O B_movie O O O	no_relation
+O O O O O	movie.estimated_budget movie.gross_revenue
+O O O O O B_movie I_movie	movie.gross_revenue
+O O O O O B_movie I_movie I_movie I_movie I_movie I_movie O O	no_relation
+O O B_movie I_movie I_movie	movie.gross_revenue
+O O O O O B_movie I_movie O	movie.gross_revenue
+O O O O O O B_movie I_movie	movie.gross_revenue
+B_movie O O	movie.gross_revenue
+O O O O B_movie	movie.gross_revenue
+O I_movie	no_relation
+O O O B_movie O O O	movie.gross_revenue
+O O O B_movie O	movie.gross_revenue
+O O O B_movie O	movie.estimated_budget
+O O O O O O O I_person O	movie.gross_revenue
+O O O O O O B_movie I_movie I_movie I_person O	movie.gross_revenue
+O O O B_movie I_movie I_movie I_person O O O O O O O O	movie.gross_revenue
+O O O O B_movie O	movie.gross_revenue
+O O O O O O O O B_movie O	movie.gross_revenue
+O O O O O B_movie	no_relation
+O O O O O O O B_movie I_movie O O O O	movie.gross_revenue
+O O O O O O O O O O O O O B_movie I_movie	movie.gross_revenue
+O O O O O O B_movie I_movie	movie.gross_revenue
+O O O O O B_movie I_movie O	movie.gross_revenue
+O O O O B_movie I_movie O	movie.gross_revenue
+O O O O O B_movie I_movie	movie.gross_revenue
+O O B_movie I_movie I_movie O	no_relation
+O O O O O O O	no_relation
+O O O O O B_movie I_movie	actor.gender movie.starring.actor
+O O O O O O B_movie	movie.starring.actor
+O O O O O B_movie I_movie	actor.gender movie.starring.actor
+O O O B_movie I_movie	movie.starring.actor
+O O O O O	movie.starring.actor
+O O O B_person I_person	person.date_of_birth
+O O B_person I_person O	person.date_of_birth
+O O B_movie I_movie O	movie.directed_by
+O O B_movie O O	movie.country
+O O O O O B_country O O O B_movie I_movie	movie.initial_release_date
+O O O	no_relation
+O O O O O O O O O B_release_year I_release_year O O O	no_relation
+O O	movie.directed_by
+O O O O O	movie.directed_by
+O O O O O O	movie.directed_by
+O O	movie.directed_by
+O O O O O O O O	no_relation
+O O O O O	no_relation
+O O B_movie I_movie O O	movie.produced_by
+O O O	movie.directed_by
+O O	movie.directed_by
+O O O O O O B_country O O O O B_genre O	movie.country movie.language
+O B_movie O	no_relation
+O B_person O	no_relation
+O O O O O O O O O B_country O	movie.country movie.language
+O O O O B_cast I_cast O O O	movie.starring.actor
+O O O O O O O O	movie.starring.actor
+O O O O O O B_movie I_movie O	no_relation
+O O O O O O B_movie I_movie	no_relation
+O O O B_director I_director O O O O O O O O O	movie.directed_by
+O O B_director O O O O	movie.directed_by
+O O O O B_director I_director I_director O O	movie.directed_by
+O O O O O O B_director O	movie.directed_by
+O O O O O O B_director	movie.directed_by
+O O O O O O O I_release_year O O O O O O	no_relation
+O O O O O O O O O	movie.gross_revenue
+O O O O O O O	movie.gross_revenue
+O O O O O O B_release_year I_release_year I_release_year	movie.initial_release_date
+O B_release_year O O O B_producer I_producer	movie.initial_release_date movie.production_companies
+O O O O O O B_release_year I_release_year I_release_year I_release_year	movie.initial_release_date
+O O O O O B_release_year I_release_year I_release_year I_release_year	movie.initial_release_date
+O O O O O B_release_year I_release_year	no_relation
+O O O O O O B_release_year I_release_year O O O O O O O O	movie.rating
+B_producer O B_producer O	movie.production_companies
+O O O O O B_producer I_producer	movie.production_companies
+O O O O B_person I_cast O O O O O	movie.starring.actor
+O O B_country O O O O O O O O B_country I_country	movie.country
+O B_country O O O O O O O B_country I_country	movie.country
+O O O O B_location	movie.country movie.locations
+O O O O O O B_country	movie.country
+O O O O O B_release_year I_release_year O B_country I_country	movie.initial_release_date
+O O O O O O B_country	no_relation
+O O O O O B_country O O O O	movie.country movie.language
+O O O O O O O B_country	movie.country
+O O O O O O B_country	movie.country
+O O O O O B_subject O	movie.rating
+O O O O B_subject O O O O	movie.rating
+O O O O	movie.genre
+O O O O O	movie.language
+O O B_person I_person O O	no_relation
+O O O O	movie.genre
+O O O O O O B_language	movie.language
+O O O O B_language	movie.language
+O O O B_language O O O	movie.language
+O O O O O B_location	movie.country movie.locations
+O B_movie I_movie I_movie I_movie I_movie O	no_relation
+O O B_producer I_producer I_subject O	no_relation
+O O O O B_subject I_subject O O O	movie.subjects
+O O O O B_release_year I_release_year I_release_year O O O O B_release_year I_release_year	movie.initial_release_date
+O O O B_country O	movie.country movie.language
+O O O O O O O O O O O B_country O B_person I_person	movie.country
+O O O B_producer O O O	no_relation
+O O O O B_director I_director	movie.directed_by
+O O B_director I_director	movie.directed_by
+O O O O O O B_person I_person	no_relation
+O O O O B_director I_director	movie.directed_by
+O O O O O	no_relation
+O O O O O O	movie.produced_by
+O O O O O O O O O O B_movie	movie.rating
+O O O O O B_movie	movie.rating
+O O B_movie I_movie O	movie.rating
+O O O O O O O B_movie	movie.rating
+O O O O O O O O B_movie O	movie.rating
+O O O O B_director I_director O	movie.rating
+O O O B_movie I_movie I_movie O	movie.rating
+O O O O O B_movie I_movie I_movie I_person	movie.rating
+O O O B_movie I_movie O	movie.rating
+O O B_movie I_movie I_movie I_movie I_movie	movie.rating
+O O O B_movie I_movie	movie.rating
+O O O O O O O B_movie I_movie	movie.rating
+O O O B_movie I_movie O O	movie.rating
+O O O O O O O B_movie I_movie	movie.rating
+O O O O O B_movie I_movie	movie.rating
+O O O O O O O B_movie I_movie	movie.rating
+O O B_movie I_movie I_movie	movie.rating
+O O O O O B_movie I_movie	movie.gross_revenue
+O O O B_movie I_movie O O	no_relation
+O O O O B_movie I_movie	movie.gross_revenue
+O O O O B_movie I_person O	movie.gross_revenue
+O O O O O O O	no_relation
+O O B_movie I_movie	no_relation
+O O O B_movie I_movie	no_relation
+O O O O B_movie I_movie	no_relation
+O O O O O O O B_movie I_movie	movie.rating
+O O B_movie I_movie	no_relation
+O O B_movie I_movie	no_relation
+O O B_movie I_movie	no_relation
+O O O	no_relation
+O O B_movie I_movie	no_relation
+O O O O O O B_movie I_movie I_movie I_movie	no_relation
+O O O B_movie I_movie I_movie	movie.initial_release_date
+O O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie	no_relation
+O O B_movie I_movie I_movie	no_relation
+O O B_movie I_movie I_movie	no_relation
+B_movie I_movie O O	no_relation
+O O O O O B_movie I_movie I_movie I_movie I_movie I_movie I_movie	no_relation
+B_movie I_movie I_movie O	no_relation
+O O B_movie I_movie I_movie I_movie I_movie	no_relation
+O B_movie I_movie O O O	no_relation
+O O O O O O B_producer I_producer O	movie.initial_release_date movie.production_companies
+O O B_director I_director O O O O B_location I_location I_location	no_relation
+O O B_director O O O O B_country	movie.locations
