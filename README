@@ -6,7 +6,7 @@ relation extraction is the task of picking up relations tha hold
 between entities in a given sentence. for example in (1), the
 relation invoked is something like: directed_by.
 
-    (1) Who directed Escape from New York?
+    (1) who directed 'escape from new york'?
 
 relation extraction is important for downstream tasks, such as
 conversational agents that can leverage detected relations to
@@ -15,9 +15,13 @@ generate appropriate responses.
 the domain of interest here are movie related queries, generated
 with according to the Freebase schema.
 
-here we also include a script that demostrates dynamic compression
-of our trained BERT, which is easy to implement with the pytroch
-library.
+here i also include a functionality that demostrates dynamic 
+compression of our trained BERT, which is easy to implement with the
+pytroch library.
+
+another curious thing i do is i take the representation of [cls]
+from the last for hidden layers, which have been reported to
+be richer in semantic representation, such as by tenney et al. (2019).
 ----------------------------------------------------------------------
 
 scripts:
