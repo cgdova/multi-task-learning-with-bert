@@ -1,6 +1,6 @@
 # begin script -------------------------------------------------------
 
-"""
+""" models.py
 module holding important class defs for building a transformer for
 class and tagging joint prediction.
 """
