@@ -4,29 +4,29 @@ README
 a project focused on training pre-trained bert for joint tagging
 and multi-label classification, for relation extraction.
 
-relation extraction is the task of picking up relations tha hold
+relation extraction is the task of picking up relations that hold
 between entities in a given sentence. for example in (1), the
 relation invoked is something like: directed_by.
 
     (1) who directed 'escape from new york'?
 
-relation extraction is important for downstream tasks, such as
-conversational agents that can leverage detected relations to
+relation extraction is important for downstream tasks. for example,
+conversational agents can leverage detected relations to
 generate appropriate responses.
 
 the domain of interest here are movie related queries, generated
-with according to the Freebase schema.
+according to the Freebase knowledge graph schema.
 
-here i also include a functionality that demostrates dynamic 
-compression of our trained bert, which is easy to implement with the
-pytroch library.
+here i also include functionality that demostrates dynamic 
+compression of bert after fine-tuning, which is easy to do with 
+pytorch.
 
 another curious thing i do is i take the representation of [cls]
-from the last for hidden layers, which have been reported to
+from the last four hidden layers, which have been reported to
 be richer in semantic representation, such as by tenney et al. (2019).
 
 i've written the code here to be well formated, documented, and thus
-easy to follow. enjoy!
+easy to follow. please enjoy!
 ----------------------------------------------------------------------
 
 scripts:
@@ -38,18 +38,18 @@ scripts:
     for an exhaustive list, see the provided requirements.txt
 
   models.py: 
-    contains classes defining my bert-based implementations, not
-    meant to be run but rather imported from.
+    contains classes defining my bert-based implementation, 
+    importable.
 
-    data_processing.py: 
+  data_processing.py: 
     similarly, contains classes defining data processing tools to 
-    prepare data that bert implementation can process. not 
-    meant to be run, but rahter imported.
+    prepare data that bert implementation can process --
+    importable.
 
   bert.py:
     this is a script that is meant to be run directly, it imports
     from both the above .py files and fine-tunes a bert model for
-    intent classification and tagging. this script importantly
+    multi-label classification and tagging. this script importantly
     saves the bert model and pickles train and test sets to
     directory temp, which then allows you to run quant.py, my
     quantized version of the model at inference. in addition, the
@@ -69,15 +69,12 @@ scripts:
     the above code files are very well documented, please take a
     look around.
 
-    evaluations.py:
+  evaluations.py:
     provided script for measuring model performance.
 
 data:
     this is a folder containing data used for training the models.
-    importantly, it contains an augmented training set, as
-    described in the report. we do not provide a validation set
-    since we train on the entire training set, having found the
-    best hyperparameters.
+    we do not provide a validation set.
         train.csv
         test.csv
 
