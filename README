@@ -72,7 +72,7 @@ scripts:
   evaluations.py:
     provided script for measuring model performance.
 
-data:
+data: (waiting on permission to publish this)
     this is a folder containing data used for training the models.
     we do not provide a validation set.
         train.csv
